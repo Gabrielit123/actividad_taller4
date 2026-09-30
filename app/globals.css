@@ -92,3 +92,67 @@ div {
   justify-content: center;
   gap: 12px; 
 }
+body {
+  background-color: #bfe3f5; 
+  margin: 0;
+}
+
+.cont_vota {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cont_vota h1 {
+  text-align: center;
+  color: #2b3a67;
+}
+
+.bloque {
+  background-color: white;
+  border-radius: 14px;
+  padding: 20px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bloque h2 {
+  margin-top: 0;
+  font-size: 1.15rem;
+  color: #2b3a67;
+}
+
+.opcion {
+  display: block;
+  padding: 10px 12px;
+  margin-top: 8px;
+  border: 1px solid #d5e6f0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.opcion:hover {
+  background-color: #eef7fc;
+}
+
+.opcion input {
+  margin-right: 10px;
+}
+
+.btn_enviar {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4a90c2;
+  color: white;
+  cursor: pointer;
+}
+
+.btn_enviar:disabled {
+  background-color: #c5d3dc;
+  cursor: not-allowed;
+}
